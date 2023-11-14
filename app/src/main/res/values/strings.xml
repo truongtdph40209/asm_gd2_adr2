@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">asm_ph40209</string>
+    <string name="forgot_password"><u>forgot password?</u></string>
+    <string name="sign_up">Don\'t have an account? <b>Sign up</b></string>
+    <string name="open">Open nav</string>
+    <string name="close">Close nav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update"><u>Chỉnh Sửa</u></string>
+    <string name="delete"> <u>Xóa</u></string>
+</resources>

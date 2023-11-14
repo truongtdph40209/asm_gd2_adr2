@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="UPDATE"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_tensp_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập tên sản phẩm"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/edt_giaban_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập giá bán"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/edt_soluong_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập số lượng"
+        android:textSize="26sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_update_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="#2196F3"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

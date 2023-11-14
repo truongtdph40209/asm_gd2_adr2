@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+
+    android:background="@drawable/img_2"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:src="@drawable/img_1"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trịnh Đình Trường"
+        android:textColor="#E91E63"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="truongtdph40209@fpt.edu.vn"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>
