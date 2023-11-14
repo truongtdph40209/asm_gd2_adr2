@@ -58,7 +58,5 @@ public class dangki extends AppCompatActivity {
 
             }
         });
-        ////truong
-
     }
 }
